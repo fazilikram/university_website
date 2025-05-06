@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <h1>Ombridge</h1>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+       </nav>
+       <div class="about"><h1>Our Certificate & Online Program For 2025</h1></div>
+    </section>
+    
+    <!-- blog -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/img4.jpg">
+                <h2>Our Certificate & Online Program For 2025</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem possimus, mollitia deserunt veniam veritatis aliquam distinctio officiis aperiam deleniti culpa? Quae obcaecati magni debitis tempore! Similique pariatur provident maxime nulla?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nam aliquid libero mollitia odit aliquam iusto saepe deserunt  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officiis vero veniam incidunt quidem rerum nulla eum exercitationem placeat laboriosam, laborum consectetur, ut accusamus impedit eaque reiciendis non, reprehenderit aperiam.non dignissimos. Molestiae qui dignissimos autem expedita delectus a optio voluptates in?consectetur adipisicing elit. A voluptatum sit labore architecto dignissimos et, hic numquam, aut cupiditate ullam recusandae. Dolore molestias rem in est! Nostrum facilis animi maxime?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, aliquam dolorem. Ullam dolore optio sequi, animi, exercitationem, doloribus dolores inventore soluta veniam illum sed eum molestias expedita pariatur omnis! Quia. adipisicing elit. Asperiores magnam architecto, praesentium commodi vel maiores nam tempore fuga quaerat reiciendis, officia ducimus unde quo! Rerum delectus magni at perspiciatis animi.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni corrupti odit optio sed voluptatum beatae mollitia necessitatibus reiciendis? Fugiat, perspiciatis dolore? Magni at similique Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia est ab vitae obcaecati blanditiis et cum? Perspiciatis voluptatem facilis voluptates accusantium non obcaecati magnam ratione. Fugiat molestiae sit exercitationem vitae! ipsum nesciunt porro qui quas!</p>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Data Science</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Software testing</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>44</span>
+                </div>
+                <div>
+                    <span>Full Stack Delvelopment</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>AI</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>Engineering</span>
+                    <span>50</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+     <!-- footer -->
+
+     <section class="footer">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam similique quod placeat, cumque, rerum autem quis quas laborum odio repellendus doloribus eius consequuntur expedita. Recusandae laboriosam numquam exercitationem provident autem.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By Fazilikram</p>
+    </section>
+        
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+         function showmenu(){
+            navLinks.style.right="0";
+         }
+         function hidemenu(){
+            navLinks.style.right="-200px";
+         }
+    </script>
+</body>
+</html>
