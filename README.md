@@ -13,6 +13,7 @@ A responsive and dynamic website for the University of Ombridge, built to serve 
 📸 Screenshots
 
 
+![Homepage Screenshot]([screenshots/homepage.png](https://github.com/fazilikram/university_website/blob/e6dcaa6743afc7e28b23a978e69a87d86b439c40/Screenshot%202025-05-07%20150433.png))
 
 ---
 
