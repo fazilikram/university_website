@@ -9,9 +9,9 @@ $email_form='fazil@projectwebsite.com';
 $email_subject='new form submission';
 
 $email_body= "User Name: $name.\n".
-"User Email: $visitor_email.\n".
-"Subject: $subject.\n".
-"User Message: $message.\n";
+              "User Email: $visitor_email.\n".
+               "Subject: $subject.\n".
+               "User Message: $message.\n";
 
 $to='fazilikram528@gmail.com';
 
